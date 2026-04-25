@@ -54,6 +54,6 @@ if ingredients_list:
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered!', icon="✅")
 
-
-LUsmoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/all")  
-st.text(LUsmoothiefroot_response.json())
+#Pull all records in API to update DB
+#LUsmoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/all")  
+#st.text(LUsmoothiefroot_response.json())
