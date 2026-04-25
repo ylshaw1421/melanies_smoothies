@@ -55,3 +55,4 @@ if ingredients_list:
 
 
 LUsmoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/all")  
+st.text(LUsmoothiefroot_response)
