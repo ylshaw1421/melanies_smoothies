@@ -54,4 +54,4 @@ if ingredients_list:
         st.success('Your Smoothie is ordered!', icon="✅")
 
 
-
+LUsmoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/all")  
